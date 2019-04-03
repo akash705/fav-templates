@@ -4,3 +4,4 @@ import './css/index.css'
 import './second';
 import './css/ribbon.css';
 import './css/progress.css';
+import './css/progressBar.css';
