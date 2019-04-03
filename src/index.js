@@ -1,3 +1,5 @@
-import './css/index.scss';
-// import './css/index.css'
+import './css/wave.scss';
+import './css/bubbles.css';
+import './css/index.css'
 import './second';
+import './css/ribbon.css';
