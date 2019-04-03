@@ -17,6 +17,7 @@ module.exports = {
     new CleanWebpackPlugin(),
     new HtmlWebpackPlugin({
       filename:'index.html',
+      template:'./index.html',
       title:'MyApp'
     }),
   ],
@@ -32,6 +33,9 @@ module.exports = {
       use:[
         'file-loader'
       ]
+    },{
+      test: /\.scss$/,
+      use: ['style-loader', 'css-loader', 'sass-loader']
     }]
   }
 };
