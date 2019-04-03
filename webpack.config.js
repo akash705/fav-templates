@@ -3,7 +3,7 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 const CleanWebpackPlugin = require('clean-webpack-plugin');
 
 module.exports = (env={mode:mode='production'})=>{
-  env.mode = env.mode || 'development'
+  env.mode = env.mode || 'production'
   return{
     mode:env.mode,
     entry:{
