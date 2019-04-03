@@ -1,3 +1,22 @@
 .ldBar{
     display: inline-block;
+    border:1px solid #eee;
+    box-shadow:1px 1px 10px white; 
+}
+.loaderArea{
+    position: absolute;
+    top:0;
+    left: 0px;
+    background: #009688;
+    z-index: 999;
+    height: 100%;
+    width: 100%;
+}
+.MainContent{
+    margin: 2rem;
+}
+.loaderContainer{
+    width: 33%;
+    display: inline-block;
+    text-align:center;
 }

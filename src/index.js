@@ -1,4 +1,5 @@
 import './css/all.css';
+import './css/preloader.css';
 
 import './css/wave.scss';
 import './css/bubbles.css';

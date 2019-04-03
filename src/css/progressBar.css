@@ -15,7 +15,7 @@
   }
   
   body {
-    margin: 2rem;
+    /* margin: 2rem; */
     font-family: 'Open Sans', sans-serif;
     color: var(--color-black);
   }
