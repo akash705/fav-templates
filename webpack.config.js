@@ -12,12 +12,13 @@ module.exports = {
     filename: '[name].main.js',
     path: path.resolve(__dirname, 'dist')
   },
+  devtool: 'inline-source-map',
   plugins:[
-   new HtmlWebpackPlugin({
-     filename:'index.html',
-     title:'MyApp'
-   }),
-   new CleanWebpackPlugin()
+    new CleanWebpackPlugin(),
+    new HtmlWebpackPlugin({
+      filename:'index.html',
+      title:'MyApp'
+    }),
   ],
   module: {
     rules: [{

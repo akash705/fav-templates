@@ -1,1 +1,1 @@
-console.log('second');
+throw 'x';
