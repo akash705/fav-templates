@@ -4,8 +4,9 @@
     <meta charset="UTF-8">
     <title>Ui Elements</title>
   </head>
-  <body>
-    <div class="loaderArea">
+  
+  <body onload="xyz()">
+    <div class="loaderArea" id="loaderArea">
         <div class="loaderContainer">
             <div class="lds-facebook"><div></div><div></div><div></div></div>
         </div>
@@ -33,7 +34,7 @@
         <div class="loaderContainer"></div>
 
     </div>
-    <div class="MainContent">
+    <div class="MainContent" id="MainContent" style="display:none">
         <section class="waveSection">
             <div class="ocean">
                 <div class="wave"></div>
@@ -272,4 +273,15 @@
 
         </seciton>
       </div>
+      <script>
+      function xyz(){
+          setTimeout(data=>{
+          var loaderArea = document.getElementById('loaderArea');
+          loaderArea.style.display="none";
+          var mainContent = document.getElementById('MainContent');
+          mainContent.style.display="block";
+          
+          },2000);
+        }
+      </script>
 </html>
