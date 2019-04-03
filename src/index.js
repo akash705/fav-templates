@@ -1,7 +1,12 @@
 import './css/wave.scss';
 import './css/bubbles.css';
 import './css/index.css'
-import './second';
 import './css/ribbon.css';
 import './css/progress.css';
 import './css/progressBar.css';
+// import ('./second');
+import(/* webpackPrefetch: true */ './second');
+console.log('webperformance')
+// setTimeout(data=>{
+    
+// },2000);

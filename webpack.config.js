@@ -15,6 +15,12 @@ module.exports = (env={mode:mode='production'})=>{
      filename: '[name].main.js',
      path: path.resolve(__dirname, 'dist')
    },
+// for same dependencies
+   //  optimization: {
+  //   splitChunks: {
+  //      chunks: 'all'
+  //    }
+  //  },
    devtool: 'inline-source-map',
    plugins:[
      new CleanWebpackPlugin(),
