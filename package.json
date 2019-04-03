@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "webpack": "webpack",
+    "webpack": "webpack  --env.fileoutput=des",
     "watch": "webpack --watch",
     "webServer": "webpack-dev-server",
     "test": "echo \"Error: no test specified\" && exit 1"
